@@ -1,0 +1,21 @@
+                    Standard API
+=====================================================
+http://localhost:8000/{endpoint}
+
+API endpoint
+-----------------------------------------------------
+METHOD  - endpoint  - Keterangan
+-----------------------------------------------------
+GET     -> /            -> Home
+GET     -> /user        -> User
+POST    -> /user        -> Tambah User
+PUT     -> /user{id}    -> Edit user
+DELETE  -> /user{id}    -> Hapus user
+-----------------------------------------------------
+                    Tech Stack
+=====================================================
+[1] Environment = NodeJS
+[2] Package     = Express, Mongoose
+[3] Database    = MongoDB
+[4] Tools       = Postman
+-----------------------------------------------------
